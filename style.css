@@ -1,0 +1,76 @@
+
+body * {
+    /* outline: 1px solid black; */
+}
+
+#navbar {
+    display: flex;
+    width: auto;
+    height: 100px;
+   
+}
+
+.navbar {
+    height: 100px;
+    width: auto;
+    align-content: center;
+}
+#img-logo {
+    text-align: right;
+    flex: 2;
+}
+#logo {
+    height: 150px;
+    width: auto;
+    transition: outline 1.5s ease-in;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+    top: 0px;
+}
+#logo:hover {
+    outline: 20px dotted #60BFC4;
+}
+
+#dropdown-menu {
+    text-align: right;
+    background-color: #60BFC4 ;
+}
+
+#diagnol {
+    flex: 2;
+    transform: skewX(25deg);
+    position: relative;
+    left: 25px;
+    z-index: 1;
+    background-color: white;
+}
+#dropdown-menu {
+    flex: 3;
+    z-index: 0;
+}
+
+#home-btn, #about-btn, #contactUs-btn {
+    flex: 2;
+    text-align: center;
+    background-color: #60BFC4;
+    color: #1F6373;
+   
+}
+#select-menu {
+    border-radius: 20px;
+    text-align: center;
+    border: 10px solid #369B76;
+    padding: 5px;
+    font-size: 16px;
+    font-family: cursive;
+    color: #0B3F50;
+}
+.navbar-btn {
+    /* outline: 1px solid red; */
+    color: #0B3F50;
+    text-decoration: none;
+    font-family: cursive;
+    font-size: 16px;
+}
+
