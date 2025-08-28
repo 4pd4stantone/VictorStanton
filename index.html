@@ -1,34 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <nav id="navbar" >
-            <div class="navbar" id="img-logo">
-                <img src="./images/logo-SE-F.png" alt="logo" id="logo">
-            </div>
-             <div  class="navbar" id="diagnol"></div>
-             <div class="navbar" id="dropdown-menu">
-                <form   action="#">
-                    <select name="Page" id="select-menu">
-                        <option value="Home"><a href="">Home</a></option>
-                        <option value="Software Engineering"><a href="">Software Engineering</a></option>
-                        <option value="Nursing"><a href="">Nursing</a></option>
-                        <option value="Movement Therapy"><a href="">Movement Therapy</a></option>
-                        <option value="Software Engineering">Software Engineering</option>
-                    </select>
-                </form>
-            </div>
-             <div  class="navbar" id="home-btn"><a href="" class="navbar-btn">Home</a></div>
-             <div  class="navbar" id="about-btn"><a href="" class="navbar-btn">About</a></div>
-            <div  class="navbar" id="contactUs-btn"><a href="" class="navbar-btn" >Contact Us</a></div>
-        </nav>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Victor Stanton</title>
+    <link rel="stylesheet" href="style.css" media="screen" />
+  </head>
+  <body>
+    <header id="header">
+      <nav id="navbar">
+        <div class="navbar" id="img-logo">
+          <a href="./index.html"
+            ><img src="./images/logo-SE-F.png" alt="logo" id="logo"
+          /></a>
+        </div>
+        <div class="navbar" id="diagnol"></div>
+        <div class="navbar" id="dropdown-menu">
+          <select name="Page" id="select-menu">
+            <option value="Home">
+              <a href="./index.html"> Home </a>
+            </option>
+            <option value="Software Engineering">
+              <a href="">Software Engineering</a>
+            </option>
+            <option value="Nursing Informatics">
+              <a href="">Nursing Informatics</a>
+            </option>
+            <option value="Movement Therapy">
+              <a href="./movementTherapy.html">Movement Therapy</a>
+            </option>
+          </select>
+        </div>
+        <div class="navbar" id="home-btn">
+          <a href="./index.html" class="navbar-btn">Home</a>
+        </div>
+        <div class="navbar" id="about-btn">
+          <a href="" class="navbar-btn">About</a>
+        </div>
+        <div class="navbar" id="contactUs-btn">
+          <a href="./contactUs.html" class="navbar-btn">Contact Us</a>
+        </div>
+      </nav>
     </header>
-    
-</body>
+    <main>
+      <section class="hero">
+        <div class="hero-header">
+          <h1>Victor Stanton</h1>
+          <h2>Health Tech Software Engineer</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+            quibusdam molestiae ab, hic expedita assumenda nulla tempore qui
+            nesciunt omnis fugit, aliquam doloremque dolores id non maiores
+            doloribus tenetur similique!
+          </p>
+        </div>
+        <div class="hero-central">
+          <div class="outerbox" id="outbox1">
+            <div class="innerbox1" id="smlbox1">
+              <div class="xsmlbox1">
+                <h3 class="left-title">Nursing Informatics</h3>
+                <p class="hero-paragraph" id="ni-paragraph">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Corrupti qui ut sapiente sequi minus.
+                </p>
+              </div>
+              <div class="xsmlbox2">
+                <a href="">
+                  <img
+                    src="./images/Syring2.png"
+                    alt="Syringe Icon"
+                    id="syringe"
+                  />
+                </a>
+              </div>
+            </div>
+            <div class="innerbox1" id="smlbox2">
+              <div class="xsmlbox1">
+                <h3 class="left-title">Massage Therapy</h3>
+                <p class="hero-paragraph" id="lmt-paragraph">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Corrupti qui ut sapiente sequi minus.
+                </p>
+              </div>
+              <div class="xsmlbox2">
+                <a href="./movementTherapy.html">
+                  <img src="./images/LMT.png" alt="LMT Icon" id="lmt-logo" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="outerbox" id="outerbox2">
+            <img
+                src="./images/logo-SE-F.png"
+                alt="Software Engineering logo"
+                id="central-img"
+            />
+          </div>
+          <div class="outerbox" id="outbox3">
+            <div class="innerbox2" id="smlbox3">
+              <div class="xsmlbox2">
+                <a href=""
+                  ><img src="./images/tag.png" alt="Tag Icon" id="tag"
+                /></a>
+              </div>
+              <div class="xsmlbox1">
+                <h3>Software Engineering</h3>
+                <p class="hero-paragraph">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Corrupti qui ut sapiente sequi minus.
+                </p>
+              </div>
+            </div>
+            <div class="innerbox2" id="smlbox4">
+              <div class="xsmlbox2">
+                <a href="./movementTherapy.html" target="_parent">
+                  <img
+                    src="./images/PT.png"
+                    alt="Personal Training Icon"
+                    id="pt-logo"
+                  />
+                </a>
+              </div>
+              <div class="xsmlbox1">
+                <h3>Personal Training</h3>
+                <p class="hero-paragraph">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Corrupti qui ut sapiente sequi minus.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer1">
+        <img 
+          src="./images/logo-SE-F.png" 
+          alt="Health Tech Software Engineer"
+          id="footer-logo"
+          >
+      </div>
+      <div class="footer2">
+        <div class="social-media">
+          <div>
+            <a href="">
+              <img src="./images/IG.png" alt="IG Icon" class="Icon">
+            </a>
+          </div>
+          <div>
+            <a href="" >
+              <img src="./images/Facebook.png" alt="Facebook Icon" class="Icon"id="fb-icon">
+            </a>
+          </div>
+          <div>
+            <a href="">
+              <img src="./images/Twitter.png" alt="Twitter Icon" class="Icon">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer3">
+        <div>
+            Terms of Service
+        </div>
+        <div>
+            Privacy Policy
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
