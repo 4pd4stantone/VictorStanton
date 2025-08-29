@@ -1,34 +1,238 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Movement Therapy</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <nav id="navbar" >
-            <div class="navbar" id="img-logo">
-                <img src="./images/logo-SE-F.png" alt="logo" id="logo">
-            </div>
-             <div  class="navbar" id="diagnol"></div>
-             <div class="navbar" id="dropdown-menu">
-                <form   action="#">
-                    <select name="Page" id="select-menu">
-                        <option value="Home"><a href="">Home</a></option>
-                        <option value="Software Engineering"><a href="">Software Engineering</a></option>
-                        <option value="Nursing"><a href="">Nursing</a></option>
-                        <option value="Movement Therapy"><a href="">Movement Therapy</a></option>
-                        <option value="Software Engineering">Software Engineering</option>
-                    </select>
-                </form>
-            </div>
-             <div  class="navbar" id="home-btn"><a href="" class="navbar-btn">Home</a></div>
-             <div  class="navbar" id="about-btn"><a href="" class="navbar-btn">About</a></div>
-            <div  class="navbar" id="contactUs-btn"><a href="" class="navbar-btn" >Contact Us</a></div>
-        </nav>
+    <link rel="stylesheet" href="style.css" media="screen" />
+    <style>
+        #top-space {
+            height: 200px;
+            width: 100%;
+            max-width: 100%;
+        }
+        caption {
+            padding: 5px;
+            font-weight: bold;
+            color: white ;
+            background-color: #369B76;
+            border: 5px solid #1c5460;
+            font-size: 35px;
+        }
+        table {
+            height: 300px;
+            width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            font-size: 28px;
+            color: white;
+            background-color: #369B76;
+            border: 5px solid #1c5460;
+        }
+        
+        td {
+            height: 100px;
+            text-align: center;
+        }
+        .table-border {
+            border: 1px solid white;
+        }
+        main * {
+            /* outline: 1px solid black; */
+        }
+       
+        #bottom-space {
+            height: 100px;
+            width: 100%;
+            max-width: 100%;
+        }
+        h2 {
+            text-align: center;
+            margin: 50px;
+            font-size: 40px;
+        }
+        #Name, #Email {
+            width: 200px;
+            height: 20px;
+            margin: 10px;
+            border: 2px solid  #1c5460;
+            border-radius: 20px;
+            padding-left: 20px;
+            color: #1c5460;
+        }
+        #form {
+            text-align: center;
+            height: 500px;
+            width: 800px;
+            border: 5px solid #1c5460;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 100px;
+        }
+        #dropdown-menu-services {
+            width: 220px;
+            height: 25px;
+            margin: 10px;
+            border: 2px solid  #1c5460;
+            border-radius: 20px;
+            padding-left: 20px;
+            color: #1c5460;
+        }
+        #submit-btn {
+            width: 220px;
+            height: 25px;
+            margin: 10px;
+            border: 2px solid  #1c5460;
+            border-radius: 20px;
+            background-color:  #369B76;
+            color: white;
+            margin-bottom: 100px;
+        }
+        article {
+            width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            margin-bottom: 100px;
+        }
+        #summary {
+            text-align: left;
+        }
+    </style>
+  </head>
+  <body>
+    <header id="header">
+      <nav id="navbar">
+        <div class="navbar" id="img-logo">
+          <a href="./index.html"
+            ><img src="./images/logo-SE-F.png" alt="logo" id="logo"
+          /></a>
+        </div>
+        <div class="navbar" id="diagnol"></div>
+<!-- Will add this section once I learn Javascript -->
+        <!-- <div class="navbar" id="dropdown-menu">
+          <select name="Page" id="select-menu">
+            <option value="Home">
+              <a href="./index.html"> Home </a>
+            </option>
+            <option value="Software Engineering">
+              <a href="">Software Engineering</a>
+            </option>
+            <option value="Nursing Informatics">
+              <a href="">Nursing Informatics</a>
+            </option>
+            <option value="Movement Therapy">
+              <a href="./movementTherapy.html">Movement Therapy</a>
+            </option>
+          </select>
+        </div> -->
+        <div class="navbar" id="home-btn">
+          <a href="./index.html" class="navbar-btn">Home</a>
+        </div>
+        <div class="navbar" id="about-btn">
+          <a href="" class="navbar-btn">About</a>
+        </div>
+        <div class="navbar" id="contactUs-btn">
+          <a href="./contactUs.html" class="navbar-btn">Contact Us</a>
+        </div>
+      </nav>
     </header>
-    
-</body>
+    <main>
+        <div id="top-space">  
+        </div>
+        <article>
+            <h1>Movement Therapy</h1>
+            <p id="summary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi voluptatem doloremque saepe iste labore, voluptas hic sit dolores incidunt consequatur numquam accusantium perferendis necessitatibus, magni expedita eos rem et unde. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quam facilis dolorum eius quaerat, tempora vel, numquam quae illo magni, omnis rerum at assumenda asperiores! Temporibus reiciendis est natus distinctio!</p>
+        </article>
+        <hero id="hero-table">
+            <table>
+                <caption>Movement Therapy Prices</caption>
+                <thead class="thead-border">
+                    <tr>
+                        <th class="table-border">Packages</th>
+                        <th class="table-border">Personal Training</th>
+                        <th class="table-border">Massage Therapy</th>
+                    </tr>
+                </thead>
+                <tbody class="thead-border">
+                    <tr>
+                        <td class="table-border">Single Session</td>
+                        <td class="table-border">$100/hr</td>
+                        <td class="table-border">$150/hr</td>
+                    </tr>
+                    <tr>
+                            <td class="table-border">12 Session Package</td>
+                            <td class="table-border">$1,000/package</td>
+                            <td class="table-border">$1,500/package</td>
+                    </tr>
+                </tbody>
+                <tfoot class="thead-border">
+                    <tr>
+                        <td class="table-border">24 Session Package</td>
+                        <td class="table-border">$2,000/package</td>
+                        <td class="table-border">$3,000/package</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </hero>
+    </main>
+    <div id="bottom-space">
+    </div>
+    <form action="#" id="form">
+        <h2>Sign Up for Movement Therapy</h2>
+        <input type="text" name="Name" id="Name" required placeholder="Name">
+        <br>
+        <input type="email" name="Email" id="Email" placeholder="E-mail">
+        <br>
+        <label><p>Select Desired Services:</p></label>
+        <select name="services" id="dropdown-menu-services">
+            <option value="PT" selected>Personal Training</option>
+            <option value="LMT">Massage Therapy</option>
+            <option value="Both">PT & Massage</option>
+        </select>
+        <br>
+        <input type="submit" id="submit-btn">
+    </form>
+    <footer>
+      <div class="footer1">
+        <a href="">
+          <img 
+          src="./images/logo-SE-F.png" 
+          alt="Health Tech Software Engineer"
+          id="footer-logo"
+          >
+        </a>
+      </div>
+      <div class="footer2">
+        <div class="social-media">
+          <div>
+            <a href="">
+              <img src="./images/IG.png" alt="IG Icon" class="Icon">
+            </a>
+          </div>
+          <div>
+            <a href="" >
+              <img src="./images/Facebook.png" alt="Facebook Icon" class="Icon"id="fb-icon">
+            </a>
+          </div>
+          <div>
+            <a href="">
+              <img src="./images/Twitter.png" alt="Twitter Icon" class="Icon">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer3">
+        <div>
+            <p id="tos"><a href="">Terms of Service</a></p>
+        </div>
+        <div>
+            <p id="pp"><a href="">Privacy Policy</a></p>
+        </div>
+        <div>
+          <p id="cr">© 2025 Victor Stanton. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>

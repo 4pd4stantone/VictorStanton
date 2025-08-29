@@ -1,34 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact Us</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <nav id="navbar" >
-            <div class="navbar" id="img-logo">
-                <img src="./images/logo-SE-F.png" alt="logo" id="logo">
-            </div>
-             <div  class="navbar" id="diagnol"></div>
-             <div class="navbar" id="dropdown-menu">
-                <form   action="#">
-                    <select name="Page" id="select-menu">
-                        <option value="Home"><a href="">Home</a></option>
-                        <option value="Software Engineering"><a href="">Software Engineering</a></option>
-                        <option value="Nursing"><a href="">Nursing</a></option>
-                        <option value="Movement Therapy"><a href="">Movement Therapy</a></option>
-                        <option value="Software Engineering">Software Engineering</option>
-                    </select>
-                </form>
-            </div>
-             <div  class="navbar" id="home-btn"><a href="" class="navbar-btn">Home</a></div>
-             <div  class="navbar" id="about-btn"><a href="" class="navbar-btn">About</a></div>
-            <div  class="navbar" id="contactUs-btn"><a href="" class="navbar-btn" >Contact Us</a></div>
-        </nav>
+    <link rel="stylesheet" href="style.css" media="screen" />
+  </head>
+  <body>
+    <header id="header">
+      <nav id="navbar">
+        <div class="navbar" id="img-logo">
+          <a href="./index.html"
+            ><img src="./images/logo-SE-F.png" alt="logo" id="logo"
+          /></a>
+        </div>
+        <div class="navbar" id="diagnol"></div>
+<!-- Will add this section once I learn Javascript -->
+        <!-- <div class="navbar" id="dropdown-menu">
+          <select name="Page" id="select-menu">
+            <option value="Home">
+              <a href="./index.html"> Home </a>
+            </option>
+            <option value="Software Engineering">
+              <a href="">Software Engineering</a>
+            </option>
+            <option value="Nursing Informatics">
+              <a href="">Nursing Informatics</a>
+            </option>
+            <option value="Movement Therapy">
+              <a href="./movementTherapy.html">Movement Therapy</a>
+            </option>
+          </select>
+        </div> -->
+        <div class="navbar" id="home-btn">
+          <a href="./index.html" class="navbar-btn">Home</a>
+        </div>
+        <div class="navbar" id="about-btn">
+          <a href="" class="navbar-btn">About</a>
+        </div>
+        <div class="navbar" id="contactUs-btn">
+          <a href="./contactUs.html" class="navbar-btn">Contact Us</a>
+        </div>
+      </nav>
     </header>
-    
-</body>
+    <main>
+        <div style="
+            height: 225px;
+            width: 100%;
+            max-width: 100%;">  
+        </div>
+        <form action="#" id="form" style="
+                text-align: left;
+                height: 390px;
+                width: 800px;
+                border: 5px solid #1c5460;
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 125px;
+                padding: 0px 50px;">
+            <h2 style="
+                text-align: left;
+                margin: 50px 50px 25px 10px;
+                font-size: 50px;">
+                Contact Us
+            </h2>
+            <input type="text" name="Name" required placeholder="Name" style="
+                width: 200px;
+                height: 20px;
+                margin: 10px;
+                border: 2px solid  #1c5460;
+                border-radius: 20px;
+                padding-left: 20px;
+                color: #1c5460;">
+            <br>
+            <input type="email" name="Email" required placeholder="E-mail" style="
+                width: 200px;
+                height: 20px;
+                margin: 10px;
+                border: 2px solid  #1c5460;
+                border-radius: 20px;
+                padding-left: 20px;
+                color: #1c5460;">
+            <br>
+            <input type="text" name="message" required placeholder="message" style="
+                height: 25px;
+                width: 760px;
+                margin: 10px 0px 10px 10px;
+                border: 2px solid  #1c5460;
+                border-radius: 20px;
+                background-color:  white;
+                color: #1c5460;
+                margin-bottom: 20px;
+                padding-left: 20px;
+                ">
+            <button style="
+                width: 220px;
+                height: 25px;
+                margin: 0px 0px 0px 10px;
+                border: 2px solid  #1c5460;
+                border-radius: 20px;
+                background-color:  #369B76;
+                color: white;
+                margin-bottom: 100px;">Send
+            </button>
+        </form>
+    </main>
+    <footer>
+      <div class="footer1">
+        <a href="">
+          <img 
+          src="./images/logo-SE-F.png" 
+          alt="Health Tech Software Engineer"
+          id="footer-logo"
+          >
+        </a>
+      </div>
+      <div class="footer2">
+        <div class="social-media">
+          <div>
+            <a href="">
+              <img src="./images/IG.png" alt="IG Icon" class="Icon">
+            </a>
+          </div>
+          <div>
+            <a href="" >
+              <img src="./images/Facebook.png" alt="Facebook Icon" class="Icon"id="fb-icon">
+            </a>
+          </div>
+          <div>
+            <a href="">
+              <img src="./images/Twitter.png" alt="Twitter Icon" class="Icon">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer3">
+        <div>
+            <p id="tos"><a href="">Terms of Service</a></p>
+        </div>
+        <div>
+            <p id="pp"><a href="">Privacy Policy</a></p>
+        </div>
+        <div>
+          <p id="cr">© 2025 Victor Stanton. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
