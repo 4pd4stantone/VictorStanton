@@ -26,10 +26,10 @@ Contact us by sending an email to Victor.Stanton@gmail.com.
 ## Roadmap
 
 Add a JavaScript driven drowpdown menu in the navigation bar.
-Add and About page.
+Add an About page.
 Add a page for Nursing.
-Add a page for Software Engineering Portofolia projects
-Add individual pages for Massage Therapy and Personal Training
+Add a page for Software Engineering Portofolia projects.
+Add individual pages for Massage Therapy and Personal Training.
 Add links to social media.
 Add a terms of service page.
 Add a Privacy Policy page.
