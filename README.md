@@ -46,4 +46,4 @@ MIT License
 
 ## Contributing
 
-Contributions are not welcome. This is a personal project.
+This is a personal project. Not accepting contributions at the moment.
