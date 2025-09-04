@@ -1,0 +1,389 @@
+
+body * {
+    /* outline: 1px solid black; */
+}
+#navbar {
+    display: flex;
+    width: 100%;
+    height: 260px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+.navbar {
+    height: 100px;
+    width: 100px;
+    align-content: center;
+}
+#img-logo {
+    text-align: center;
+    flex: 2;
+    position: fixed;
+    z-index: 2;
+}
+#logo {
+    height: 150px;
+    width: auto;
+    transition: outline 1.5s ease-in;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+    top: 30px;
+    padding: 40px;
+    left: 30px;
+    box-shadow: -10px -10px 35px #369B76;
+    outline: 2px solid #60BFC4;
+    background-color: white;
+}
+#logo:hover {
+    outline: 20px dotted #369B76;
+}
+
+#dropdown-menu {
+    text-align: right;
+    background-color: #60BFC4 ;
+    
+}
+
+#diagnol {
+    flex: 2;
+    transform: skewX(25deg);
+    /* change position: absolute for mobile view in @media */
+    position: relative; 
+    left: 25px;
+    z-index: 1;
+    background-color: white;
+}
+#dropdown-menu {
+    flex: 3;
+    z-index: 0;
+}
+
+#home-btn, #about-btn, #contactUs-btn {
+    flex: 2;
+    text-align: center;
+    background-color: #60BFC4;
+    color: #1F6373;
+ 
+}
+#select-menu {
+    border-radius: 20px;
+    text-align: center;
+    border: 10px solid #369B76;
+    padding: 5px;
+    font-size: 16px;
+    font-family: cursive;
+    color: #0B3F50;
+}
+.navbar-btn {
+        /* outline: 1px solid red; */
+    color: #0B3F50;
+    text-decoration: none;
+    font-family: cursive;
+    font-size: 16px;
+    transition-property: text-decoration;
+    transition-duration: 0.5s;
+}
+.navbar-btn:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    width: auto;
+    margin: 0px auto;
+
+}
+
+.hero>.hero-header {
+    padding: 200px 250px 100px 250px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: auto;
+}
+
+h1 {
+    font-size: 80px;
+    color: #1c5460;
+}
+
+h2 {
+    font-size: 50px;
+    color: #1c5460;
+}
+
+p {
+    font-size: 25px;
+    color: #1F6373;
+}
+.hero-central {
+    display: flex;
+}
+.outerbox {
+    height: 500px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    /* outline: 10px solid black; */
+    justify-content: space-around;
+}
+#outerbox2 {
+    text-align: center;
+}
+#central-img {
+    width: auto;
+    height: 500px;
+    position: relative;
+    /* outline: 10px solid pink; */
+    z-index: -1;
+}
+
+.outerbox > .innerbox1 {
+    height: 200px;
+    width: auto;
+    /* outline: 10px solid red; */
+    display: flex;
+}
+.outerbox > .innerbox2 {
+    height: 200px;
+    width: auto;
+    /* outline: 10px solid yellow; */
+    display: flex;
+}
+
+.xsmlbox1 {
+    /* outline: 10px solid green; */
+    height: auto;
+    flex: 3;
+  
+}
+.xsmlbox2 {
+    /* outline: 10px solid purple; */
+    height: 125px;
+    /* flex: 2; */
+    border-radius: 50%;
+    width: 125px;
+    transition:  1.5s ease-in;
+}
+.xsmlbox2:hover {
+    outline: 20px dotted #60BFC4;
+}
+.hero-paragraph {
+    font-size: 16px;
+    padding: 0px 10px;
+}
+h3 {
+    padding-left: 10px;
+    margin-top: 10px;
+    font-size: 25px;
+    color: #1c5460;
+}
+.left-title {
+    text-align: right;
+    padding-right: 10px;
+}
+#lmt-paragraph, #ni-paragraph {
+    text-align: right;
+}
+
+#syringe, #tag, #pt-logo, #lmt-logo {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    z-index: 1;   
+}
+
+@media (max-width: 1040px) {
+    .hero>.hero-header {
+    padding: 200px 50px 100px 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: auto;
+    }
+    .hero-central {
+        flex-direction: column;
+        align-items: center;
+    }
+    .outerbox {
+        max-width: 500px; 
+    }
+    #outbox1 {
+        order: 2
+    }
+    #outbox2 {
+        order: 1
+    }
+    #outbox2 {
+        order: 2
+    }
+    .xsmlbox1 {
+        order: 2;
+        /* text-align: left; */
+    }
+    .left-title {
+        text-align: left;
+    }
+        #lmt-paragraph, #ni-paragraph {
+        text-align: left;
+        }
+}
+
+@media (max-width: 780px) {
+    .hero>.hero-header {
+    padding: 200px 0px 100px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: auto;
+    }
+    #navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: space-between;
+    border-right: 150px;
+    }
+    .navbar{
+    border-radius: 50% ;
+   
+    }
+    #logo {
+    left: 150px;
+    position: relative;
+    }
+    #img-logo {
+    z-index: 0;
+    }
+    #diagnol {
+    position: absolute; 
+    z-index: -1;
+    }
+     /* Will add this section once I learn Javascript */
+    /* #select-menu {
+    z-index: 2;
+    width: 100px;
+    border-radius: 50%;
+    height: 110px;
+    } */
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    
+    max-width: 100%;
+    width: 100%;
+    margin: 0px auto;
+
+}
+footer >.footer1,.footer2, .footer3 {
+    width: 900px;
+    text-align: center;
+    background-color: #C8DB82;
+    flex: 1;
+    min-width: 250px;
+}
+.footer1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Icon {
+    height: 100px;
+}
+#footer-logo {
+    height: 150px;
+    width: auto;
+    border-radius: 50%;
+    box-shadow: -10px -10px 35px #369B76;
+    outline: 2px solid #60BFC4;
+    background-color: white;
+    transition: outline 1.5s ease-in;
+}
+#footer-logo:hover {
+    outline: 20px dotted #369B76;
+} 
+
+.social-media {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    
+}
+#fb-icon {
+    margin-top: 40px;
+}
+
+.footer3 {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+   
+}
+
+#tos, #pp {
+    font-size: 18px ;
+    padding: 22.3px;
+    margin: 0px;
+}
+#tos>a, #pp>a {
+    color:  #1F6373;
+    text-decoration: none;
+}
+#tos>a:hover, #pp>a:hover {
+    color:  #1F6373;
+    text-decoration: underline;
+}
+#cr {
+    font-size: 18px ;
+    padding: 22.3px;
+    margin: 0px;
+}
+
+.Icon {
+    transition: outline 1.5s ease-in;
+    border-radius: 50%;
+    /* Trying to get the hover effect to display over the background color
+    so far the below attributes are not working */
+    position: relative;
+    z-index: 2;
+}
+.Icon:hover {
+    outline: 20px dotted #60BFC4;
+}
+
+@media (max-width: 1040px) {
+    footer {
+    flex-direction: column;
+    align-items: center;
+    
+   
+    }
+    .footer1, .footer2, .footer3 {
+    width: 100%;
+    z-index: 0;
+    max-width: 100%;
+    
+    }
+    .footer1 {
+    width: 100%;
+    max-width: 100%;
+    }
+  
+}
+
+#dm-us {
+    margin-right: auto;
+    margin-left: auto;
+    width: 400px;
+    margin-bottom: 40px;
+}
+
+    
+
+   
+
+    

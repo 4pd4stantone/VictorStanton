@@ -1,0 +1,69 @@
+
+
+body {
+    font-family: palatino;
+    margin-bottom: 100px;
+}
+h3 {
+    font-size: 4vw;
+}
+p {
+    font-size: 3vw;
+}
+h4 {
+    font-size: 4vw;
+}
+.avatar {
+    width: 35vw;
+    border-radius: 50%;
+    transition: outline 1.5s ease-in;
+    outline: 2px solid #60BFC4;
+    background-color: white;
+}
+.avatar:hover {
+    outline: 5vw dotted #369B76;
+}
+.card {
+    width: 80vw;
+    height: 80vh;
+    margin: 5px auto;
+    padding: 3vw;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #AAF0D1;
+    color: #06313c;
+    border: 1vw solid #A6F3E7;
+    border-radius: 50px;
+    animation-name: color-change;
+    animation-duration: 10s;
+    align-items: center;
+    transition: box-shadow 5s;
+}
+.card:hover {
+     box-shadow: teal 30px 30px 15px 15px;
+}
+a {
+    color: #06313c;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 800px) {
+    .card {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@keyframes color-change {
+  0%   {background-color: #06313c;}
+  25%  {background-color: #356f65;}
+  50%  {background-color: #5bab7c;}
+  75%  {background-color: #98d6a7;}
+  100% {background-color: #AAF0D1;}
+}
+
+

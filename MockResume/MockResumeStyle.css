@@ -1,0 +1,335 @@
+body {
+    background-color: #141414;
+}
+#blood {
+    position: absolute;
+    width: 500px;
+    opacity: 30%;
+    top: 130px;
+    transition-property: opacity;
+    transition-duration: 1s;
+}
+#blood:hover {
+    opacity: 100%;  
+}
+
+.resume {
+    /* outline: 1px solid white; */
+    padding: 10px;
+    background-color: #282828;
+    width: 600px;
+    height: 740px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+   
+}
+
+
+#dex-img {
+    transition-property: box-shadow;
+    transition-duration: 2s;
+    z-index: 1;
+    width: 100px;
+    height: 100px;  
+    object-fit: cover;
+}
+#dex-img:hover {
+    /* outline: 5px solid aqua; */
+    box-shadow: 10px 10px 20px #B20000;
+}
+
+.subsection1 {
+    display: flex;
+}
+
+
+#box1 {
+    /* outline: 5px solid red; */
+    width: 300px;
+    height: 100px;
+    display: flex;
+}
+#subbox1 {
+    /* outline: 5px solid pink; */
+    width: 100px;
+    height: 100px;  
+    object-fit: cover;
+    z-index: 1;
+}
+#subbox2 {
+    /* outline: 1px solid pink; */
+    width: 1000px;
+    height: 50px;
+}
+#name {
+    margin: 5px;
+    color: white;
+}
+#title{
+    margin: 5px;
+    color: aqua;
+}
+#box2 {
+    /* outline: 5px solid yellow; */
+    width: 320px;
+    height: 100px;
+    display: flex;
+}
+.databox {
+    color: white;
+    font-size: 13px;
+    text-align: right;
+}
+
+.infobox {
+    color: #797878;
+    font-size: 13px;
+}
+a {
+    color: aqua;
+}
+
+#subbox3 {
+    /* outline: 10px solid blue; */
+    width: 80px;
+    height: 100px;
+    display: flex;
+    text-align: right;
+}
+#subbox4 {
+    /* outline: 10px solid pink; */
+     width: 220px;
+    height: 100px;
+    padding-left: 0px;
+}
+
+.subsection2{
+    margin: 0px;
+    padding: 10px 0px 0px 0px;
+    color: #797878;
+    font-size: 14px;
+ 
+}
+
+#objective {
+    font-size: 16px;
+    color: white
+}
+#box3 {
+    /* outline: 5px solid green; */
+    width: 600px;
+    height: 100px;
+    
+}
+
+hr {
+  border: none;   
+  height: 1px;              
+  background-color: #797878; 
+}
+
+#section2 {
+    display: flex;
+    align-items: stretch;
+    height: 510px;
+    padding-top: 5px;
+}
+
+#box4 {
+    /* outline: 1px solid white; */
+    width: 390px;
+    height: auto;
+    color: white;
+    padding-right: 10px;
+    margin: 0px;
+}
+
+#header {
+    background-color: #797878;
+    /* outline: 1px solid blue; */
+    height: 23px;
+    display: flex;
+    align-items: center;
+}
+.bigarrow {
+    width: 25px;
+    height: 25px;
+    padding-right: 5px;
+    padding-top: 2px;
+     /* outline: 1px solid red; */
+}
+
+.smlBlueArrow {
+    width: 15px;
+    height: 15px;
+    padding-right: 5px;
+}
+.experience {
+    font-size: 12px;
+    color: #797878;
+}
+.exp-title {
+    margin: 0px;
+    padding-bottom: 2px;
+    /* outline: 1px solid white; */
+    color: white;
+}
+#title-exp {
+    color: #797878;
+}
+span {
+    color: #797878;
+    margin-left: auto;
+    font-size: 12px;
+}
+ul {
+    padding-left: 20px;
+    
+}
+#workplace {
+    display: flex;
+    width: 390px;
+}
+
+#box5 {
+    /* outline: 1px solid white; */
+    width: 200px;
+    height: auto;
+    color: white;
+}
+
+#skillsTitle {
+    color: white
+}
+
+#skillsTitle {
+    margin: 0px 0px 10px 0px;
+}
+p {
+    font-size: 10px;
+    color: #797878;
+    margin: 0px 0px 10px 0px;
+}
+.outerBox {
+    /* border: 1px solid ;  */
+    background-color:  #797878 ;
+}
+
+#innerBox1 {
+    border: 1px solid #307CA9; 
+    background-color:  #307CA9 ;
+    font-size: 10px;
+    width: 190px;
+    text-align: right;
+}
+#innerBox2 {
+    border: 1px solid #43A6CB; 
+    background-color:  #43A6CB ;
+    font-size: 10px;
+    width: 176px;
+    text-align: right;
+}
+#innerBox3 {
+    border: 1px solid #66A23E; 
+    background-color:  #66A23E ;
+    font-size: 10px;
+    width: 180px;
+    text-align: right;
+}
+#innerBox4 {
+    border: 1px solid #FDBF26; 
+    background-color:  #FDBF26 ;
+    font-size: 10px;
+    width: 164px;
+    text-align: right;
+}
+#innerBox5 {
+    border: 1px solid #F02B01; 
+    background-color:  #F02B01 ;
+    font-size: 10px;
+    width: 150px;
+    text-align: right;
+}
+
+.balls-title {
+    margin: 10px 0px 10px 0px;
+ 
+}
+.balls {
+    /* border: 1px solid #797878; */
+    height: 15px;
+    width: 120px;
+    margin: 5px 0px 0px 5px;
+    display: flex;
+
+}
+
+.side-balls {
+    display: flex;
+    flex-wrap: wrap;
+   
+} 
+
+#english {
+    margin-right: auto;
+}
+#spanish {
+    margin-right: auto;
+}
+#medical {
+    margin-right: auto;
+}
+.blueBalls {
+    border: 1px solid #797878;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin: 0px 2px;
+    background-color: #43A6CB;
+}
+.greenBalls {
+    border: 1px solid #797878;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin: 0px 2px;
+    background-color: #66A23E;
+}
+.yellowBalls {
+    border: 1px solid #797878;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin: 0px 2px;
+    background-color: #FDBF26;
+}
+.blackBalls {
+    border: 1px solid #797878;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin: 0px 2px 10px 2px;
+    background-color: #141414;
+}
+#langSkills {
+    margin: 0px;
+}
+
+@media screen and (max-width: 600px) {
+    .subsection1 {
+        flex-direction: column;
+        max-width: 100%
+    }
+    #section2 {
+        flex-direction: column;
+        max-width: 100%;
+    }
+    .resume {
+        height: 1420px;
+    }
+    #box3 {
+        width: 400px;
+        margin-bottom: 60px;
+    }
+}
